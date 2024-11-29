@@ -1,0 +1,150 @@
+ 
+html {
+  background-color: #a9a9a9;
+}
+body {
+  margin: 0;
+  background-color: antiquewhite;
+  
+}
+main {
+  padding: 1rem;
+}
+@media (min-width: 2500px) {
+  body {
+      max-width: 60%;
+      margin: auto;
+  }
+}
+
+header {
+  justify-content: space-between;
+ 
+  padding: 50px 100px; /* header padding (top/bottom)(left/right) */
+  background-color: #696969;
+}
+
+.work{
+  display:flex;
+}
+
+.work a {
+  padding-right: 1rem;
+}
+
+.certs p {
+  padding-right: 1rem;
+}
+
+.nav ul {
+  display: flex;/* gets it all on the same line */
+  list-style: none;  /* removes the bullets */
+  justify-content: center;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.nav ul li {
+  margin: 0 20px;/* space between links(up,down/left,right) */
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+
+}
+.nav-header li:hover {
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mycontainer {
+  padding: 20px;
+  width: 25%;
+  border-radius: 8px; /* Optional: round corners */
+  text-align: center;
+}
+
+.MovieText {
+  text-align: center;
+}
+
+.imgcont{
+text-align: center;  
+}
+
+.hero-img {
+  min-width: 80%;  
+}
+
+.lead {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.certs {
+  font-size: 19px;
+  text-align: center;
+}
+
+.certimg {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.CertiText {
+  text-align: center;
+}
+.skills{
+  font-size: 23px;
+  display:flex;
+}
+
+.skills section {
+ width: 25%;
+
+}
+ h2{
+  font-size: 32px;
+}
+.resume{
+  font-size: 20px;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+#footer-menu ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+#footer-menu li {
+ padding: .75rem .75rem;
+}
+#footer-menu li:hover {
+
+  border-bottom: 1px solid white;
+}
+#footer-menu a{
+  color: white;
+  text-decoration: none;
+}
+footer .container {
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
