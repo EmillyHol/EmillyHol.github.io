@@ -10,12 +10,115 @@ body {
 main {
   padding: 1rem;
 }
-@media (min-width: 2500px) {
+/* Mobile screens */
+@media (max-width: 600px) {
   body {
-      max-width: 60%;
-      margin: auto;
+    padding: 0;
+  }
+ 
+  header {
+    height: 180vh;
+  }
+ 
+  .main h2 {
+    font-size: 1.2em;  /* Smaller font on mobile */
+  }
+ 
+  .hero-img {
+    max-width: 80%;  /* Resize the image */
+  }
+  .certimg {
+    max-width: 100%;
+  }
+  .container {
+    flex-direction: column;  /* Stack content vertically on mobile */
+    align-items: center;
+  }
+ 
+  .inlineHeader {
+    font-size: 1.2em;  /* Smaller titles on mobile */
+  }
+ 
+  .skills-section,.resume {
+    max-width: 90%;  /* Allow content to take more width on mobile */
+    padding: 10px;
+  }
+ 
+  .Emilly_Holanda_grade_12.docx.pdf {
+    padding: 8px 16px;
+  }
+ 
+  ul li {
+    font-size: 14px;  /* Smaller font on mobile */
   }
 }
+ 
+/* Tablet screens (600px to 1024px) */
+@media (max-width: 1024px) and (min-width: 601px) {
+  header {
+    height: 100vh;
+  }
+ 
+  .hero-img {
+    max-width: 50%;
+  }
+  .certimg {
+    max-width: 70%;
+  }
+ 
+  .inlineHeader {
+    font-size: 1.4em;
+  }
+ 
+  .container {
+    flex-direction: column;
+  }
+ 
+  .Emilly_Holanda_grade_12.docx.pdf {
+    padding: 10px 20px;
+  }
+}
+ 
+/* Larger screens (1024px and above) */
+@media (min-width: 1025px) {
+  .content {
+    justify-content: space-around;
+  }
+ 
+  .inlineHeader {
+    font-size: 1.5em;
+  }
+}
+ 
+/* Mobile version - Adjust the title for smaller screens */
+@media screen and (max-width: 768px) {
+  .title {
+    top: 30%; /* Adjust the vertical position to avoid overlap */
+    right: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+  }
+ 
+  .title h1 {
+    font-size: 40px; /* Adjust font size for mobile */
+  }
+}
+ 
+/* Further adjustments for very small screens */
+@media screen and (max-width: 480px) {
+  .title {
+    top: 25%; /* Slightly adjust for very small screens */
+    padding: 10px;
+  }
+ 
+  .title h1 {
+    font-size: 300px; /* Reduce font size for small screens */
+  }
+}
+ 
+ 
+
+
 
 header {
   justify-content: space-between;
